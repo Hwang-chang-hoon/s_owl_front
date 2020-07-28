@@ -1,0 +1,33 @@
+.table-sec{
+  width: 809px;
+  height: 600px;
+  margin-top: 16px;
+  margin-left: 40px;
+    padding-top: 30px;
+  background-color: #2d2d2d;
+}
+.table-background{
+  width: 750px;
+  height: 500px;
+  margin-left: 31px;
+  background-color: black;
+  color :white;
+}
+.table{
+  font-size: 12px;
+  background-color: black;
+  color :white;
+}
+tbody tr:nth-child(2n) {
+  background-color: #2d2d2d;
+  color : white;
+}
+tbody tr:nth-child(2n+1) {
+  background-color: red;
+}
+.pagination li a, 
+.pagination li span{
+  color : white;
+  background-color: black;
+    border: 1px solid #2d2d2d;
+}
